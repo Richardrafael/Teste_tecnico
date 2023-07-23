@@ -32,7 +32,7 @@ export default function Tabela() {
 
   return (
     <>
-      <span className="text-lg p-4 font-Poppins text-quadros tracking-widest leading-[2rem] font-semibold ">
+      <span className="text-lg font-Poppins text-quadros tracking-widest leading-[2rem] font-semibold ">
           Top Products
       </span>
       <table className="w-full gap-4 font-Poppins md:table-fixed table-fixed "> 
@@ -70,11 +70,14 @@ export default function Tabela() {
         <td className="font-normal text-sm p-2">
           <div >
           <span className={ 
-          i.sales == 45 ? "p-1 text-[#0095FF] bg-variacao1 px-10 text-[0.8125] rounded-lg leading-[1rem] border border-[#0095FF] "
+          i.sales == 45 ? 
+          "p-1 text-[#0095FF] bg-variacao1 px-10 text-[0.8125] rounded-lg leading-[1rem] border border-[#0095FF] "
           :
-          i.sales == 29 ? " border-[#00E58F] text-[#00E58F] bg-variacao2 px-10 p-1 text-[0.8125] rounded-lg leading-[1rem] border " 
+          i.sales == 29 ? 
+          " border-[#00E58F] text-[#00E58F] bg-variacao2 px-10 p-1 text-[0.8125] rounded-lg leading-[1rem] border " 
           : 
-          i.sales == 18 ? " border-[#884DFF] text-[#884DFF] bg-variacao3 px-10 p-1 text-[0.8125] rounded-lg leading-[1rem] border " : 
+          i.sales == 18 ? 
+          " border-[#884DFF] text-[#884DFF] bg-variacao3 px-10 p-1 text-[0.8125] rounded-lg leading-[1rem] border " : 
           " border-[#FF8900] text-[#FF8900] bg-variacao4 px-10 p-1 text-[0.8125] rounded-lg leading-[1rem] border"}>
           {i.sales}%
           </span>

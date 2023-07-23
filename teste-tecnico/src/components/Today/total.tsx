@@ -17,7 +17,7 @@ export default function Total({backgroud , icone , subTitulo , titulo , informat
     <img src={icone} alt="" />
     </div>
     <div>
-        <span className="text-2xl font-medium text-quadros">
+        <span className="text-[1.4rem] font-medium text-quadros">
            {titulo}
         </span>
         <div className="flex flex-col">
