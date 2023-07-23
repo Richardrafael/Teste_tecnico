@@ -25,7 +25,6 @@ function Menu() {
      <Campos icone={order} nome="order"/>
      <Campos icone={Products} nome="Products"/>
      <Campos icone={SalesReport} nome="Sales Report"/>
-     <Campos icone={SalesReport} nome="Message"/>
      <Campos icone={Message} nome="Message"/>
      <Campos icone={Setting} nome="Setting"/>
      <div className="flex absolute bottom-0 hover:bg-[#ff0000b6]  p-2 pl-6 mb-[0.7rem] cursor-pointer w-[12rem] rounded-xl h-[3rem] items-center justify-start  bg-blue-900 flex-row gap-5">
