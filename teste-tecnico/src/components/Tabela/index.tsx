@@ -50,24 +50,22 @@ export default function Tabela() {
         <td className="font-normal text-sm p-2 ">{i.id} </td>
         <td className="font-normal text-sm p-2">{i.name}</td>
         <td className="font-normal text-sm p-2"> 
-        { i.popularity == 80 &&
+        { i.popularity >= 80 ?
          <div className="w-full h-[0.5rem] bg-[#CDE7FF;] rounded">
          <div className="w-4/5 h-full bg-[#0095FF] rounded"></div>
-        </div>}
-        { i.popularity == 60 && 
-        <div className="w-full h-[0.5rem] bg-[#8CFAC7;] rounded">
+        </div> :
+         i.popularity >= 60 ? 
+          <div className="w-full h-[0.5rem] bg-[#8CFAC7;] rounded">
          <div className="w-[60%] h-full bg-[#00E096;] rounded"></div>
-        </div>}
-        { i.popularity == 40 && 
-          <div className="w-full h-[0.5rem] bg-[#C5A8FF;] rounded">
+        </div> : 
+        i.popularity >= 40 ?  
+        <div className="w-full h-[0.5rem] bg-[#C5A8FF;] rounded">
           <div className="w-[40%] h-full bg-[#884DFF;] rounded"></div>
-         </div>
-        }
-        { i.popularity == 20 && 
-          <div className="w-full h-[0.5rem] bg-[#FFD5A4;] rounded">
+         </div> :
+           <div className="w-full h-[0.5rem] bg-[#FFD5A4;] rounded">
           <div className="w-[20%] h-full bg-[#FF8F0D;] rounded"></div>
-         </div>
-        }
+         </div> 
+         }
         </td>
         <td className="font-normal text-sm p-2">
           <div >
