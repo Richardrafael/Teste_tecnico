@@ -14,7 +14,7 @@ function App() {
      <Menu></Menu>
      <section className='bg-body w-full h-full'>
      <Titulo nome="Dashbord"/>
-     <div className="grid m-5 grid-cols-7 pl-[18rem] gap-4">
+     <div className="grid m-5 grid-cols-7  pl-[18rem] gap-4">
       <div className="col-start-auto rounded-[1.25rem] h-[17rem] flex-col shadow-3xl col-span-4  bg-Titulo p-4">
         <Today></Today>
       </div>

@@ -50,15 +50,15 @@ export function GraficoCircle() {
     4,209
     </span>
     </div>
-    <div className='h-[10rem]  flex justify-between  '>
+    <div className='h-[10rem]  flex   '>
     
-    <div className='flex flex-row'>
+    <div className='flex flex-row justify-between w-full'>
      <div className='flex flex-col gap-4 w-32 mt-10'>
      <LegendaCircle titulo='62% New' style="w-[1rem] bg-[#497AF9] h-[0.78rem] rounded-[0.16rem]"/>
       <LegendaCircle titulo='13% Returning' style="w-[1rem] bg-[#789DFB] h-[0.78rem] rounded-[0.16rem]"/>
       <LegendaCircle titulo='23% Inactive' style="w-[1rem] bg-[#E5E5E5] h-[0.78rem] rounded-[0.16rem]"/>
     </div> 
-    <div className='ml-20'>
+    <div className=''>
       <Doughnut options={options} data={data} />
     </div>
     </div>

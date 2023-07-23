@@ -19,7 +19,7 @@ function Campos({nome , icone} : PropsCampos) {
     </div>
      </> 
      :
-    <div className="flex p-2 pl-6 cursor-pointer w-[12rem] rounded-xl h-[3rem] items-center justify-start  bg-blue-900 flex-row gap-5">
+    <div className="flex p-2 pl-6 cursor-pointer  hover:bg-[#ababab63] w-[12rem] rounded-xl h-[3rem] items-center justify-start  bg-blue-900 flex-row gap-5">
     <img src={icone} alt="" />
      <span className="text-primary font-Poppins font-normal text-lg leading-3 ">
         {nome}

@@ -23,6 +23,15 @@ import {
   
   export const options = {
     responsive: false,
+    scales: {
+    x: {
+    //   display: false, 
+    },
+    y: {
+      display: false, 
+    //   beginAtZero: true,
+    },
+  },
     plugins: {
       legend: {
         display : false,

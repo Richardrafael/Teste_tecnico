@@ -26,6 +26,15 @@ ChartJS.register(
 
 export const options = {
   responsive: true,
+  scales: {
+    x: {
+      display: false, 
+    },
+    y: {
+      display: false, 
+      // beginAtZero: true,
+    },
+  },
   plugins: {
     legend: {
       display : false,
@@ -38,21 +47,22 @@ export const options = {
   },
 };
 
-const labels = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'June', 'July'];const dados = [10 , 9 , 9.5 , 8.9 , 9.5 , 8 , 11]
-const dados1 = [7 , 7.5 , 6.5  , 6.2 , 6.8 , 7 , 8]
+const labels = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'June', 'July'];
+const dados = [10 , 8 , 9.5 , 7 , 9.5 , 6 , 11]
+const dados1 = [3 , 5.5 , 2.5  , 3.2 , 4.2 , 3 , 6]
 
 
 export const data = {
   labels,
   datasets: [
     {
-      label: 'Dataset 1',
+      label: 'This Month',
       data: dados,
       borderColor: '#00E096',
       backgroundColor: '#00E096',
     },
     {
-      label: 'Dataset 2',
+      label: 'Last Month',
       data: dados1,
       borderColor: '#007DD6',
       backgroundColor: '#007DD6',

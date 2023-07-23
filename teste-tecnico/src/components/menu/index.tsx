@@ -28,9 +28,9 @@ function Menu() {
      <Campos icone={SalesReport} nome="Message"/>
      <Campos icone={Message} nome="Message"/>
      <Campos icone={Setting} nome="Setting"/>
-     <div className="flex absolute bottom-0  p-2 pl-6 mb-[0.7rem] cursor-pointer w-[12rem] rounded-xl h-[3rem] items-center justify-start  bg-blue-900 flex-row gap-5">
+     <div className="flex absolute bottom-0 hover:bg-[#ff0000b6]  p-2 pl-6 mb-[0.7rem] cursor-pointer w-[12rem] rounded-xl h-[3rem] items-center justify-start  bg-blue-900 flex-row gap-5">
     <img src={SignOut} alt="" />
-     <span className="text-sign font-Poppins font-normal text-lg leading-3 ">
+     <span className="text-sign  font-Poppins font-normal text-lg leading-3 ">
         Sign Out
      </span>
     </div>
