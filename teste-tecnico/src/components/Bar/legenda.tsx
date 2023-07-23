@@ -13,7 +13,7 @@ export default function Legenda({icone , titulo , subtitulo , numero} : PropsLeg
     <div>
       <div className='flex flex-row w-full justify-between  items-center '>
        <div className="flex flex-row">
-       { icone == "/src/assets/bolsa.svg" ? 
+       { titulo == "Reality Sales" ? 
         <div>
             <img src={icone} alt="" />
         </div> : 
@@ -29,7 +29,7 @@ export default function Legenda({icone , titulo , subtitulo , numero} : PropsLeg
             </span>
         </div>
       </div> 
-        { icone == "/src/assets/bolsa.svg" ? 
+        { titulo == "Reality Sales" ? 
         <div>
            <span className="text-[#27AE60] font-Poppins text-[0.875rem] font-medium leading-5 ">
               {numero}
