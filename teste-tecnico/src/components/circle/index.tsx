@@ -26,7 +26,6 @@ export const data = {
 
 export const options = {
   responsive: true,
-  gap : 12,
   plugins: {
     legend: {
       display : false,
@@ -53,7 +52,7 @@ export function GraficoCircle() {
     </div>
     <div className='sm:h-[10rem]  flex   '>
     
-    <div className='flex sm:flex-row flex-col gap-4 sm:gap-0 justify-between w-full'>
+    <div className='flex sm:flex-row  gap-4 sm:gap-0 justify-between w-full'>
      <div className='flex flex-col gap-4 w-32 mt-10'>
      <LegendaCircle titulo='62% New' style="w-[1rem] bg-[#497AF9] h-[0.78rem] rounded-[0.16rem]"/>
       <LegendaCircle titulo='13% Returning' style="w-[1rem] bg-[#789DFB] h-[0.78rem] rounded-[0.16rem]"/>

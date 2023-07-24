@@ -38,9 +38,9 @@ export default function Titulo({nome } : PropsTitulo) {
           >
             
               {isOpen ? (
-                <img src={x} alt="" />
+                <img className="pl-4" src={x} alt="" />
               ) : (
-                <img src={menu} alt="" />
+                <img className="pl-4" src={menu} alt="" />
               )}
           </button>
       </div>
