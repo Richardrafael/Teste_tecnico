@@ -5,10 +5,10 @@ import LegendaCircle from './legenda';
 ChartJS.register(ArcElement, Tooltip, Legend);
 
 export const data = {
-  labels: ['Red', 'Blue', 'Yellow'],
+  labels: ['New', 'Returning', 'Inactive'],
   datasets: [
     {
-      label: '# of Votes',
+      label: 'Users',
       data: [62, 13, 23],
       backgroundColor: [
         "#497AF9", 

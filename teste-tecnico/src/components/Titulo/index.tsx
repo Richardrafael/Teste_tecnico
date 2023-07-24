@@ -13,12 +13,12 @@ export default function Titulo({nome } : PropsTitulo) {
     <span className="font-Poppins pl-5 text-4xl text-Titulo font-semibold leading-[140%]">    
         {nome}
     </span> 
-    <div className="pr-5 flex gap-5 flex-row">
-     <div className="p-2 rounded-xl bg-notifica">
+    <div className="pr-5 flex gap-5  flex-row">
+     <div className="p-2 rounded-xl cursor-pointer bg-notifica">
         <img src={bolinha}/>
         <img src={notifica} alt="" />
      </div>
-     <div className="flex flex-col">
+     <div className="flex flex-col cursor-pointer">
         <div>
         <div className="flex text-Titulo text-base font-Poppins flex-row font-medium w-20 items-center justify-between">
         <span >
