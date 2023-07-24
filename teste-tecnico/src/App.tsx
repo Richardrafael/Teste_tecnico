@@ -12,22 +12,22 @@ function App() {
   return (
     <>
      <Menu></Menu>
-     <section className='bg-body w-full h-full'>
+     <section className='bg-body overflow-x-hidden w-full h-full'>
      <Titulo nome="Dashbord"/>
-     <div className="grid m-5 grid-cols-7  pl-[18rem] gap-4">
-      <div className="col-start-auto rounded-[1.25rem] h-[17rem] flex-col shadow-3xl col-span-4  bg-Titulo p-4">
-        <Today></Today>
+     <div className="grid m-5 xl:grid-cols-7 grid-cols-1  xl:pl-[18rem] gap-4">
+      <div className="col-start-auto col-span-1 rounded-[1.25rem] xl:h-[17rem] mt-[5rem] xl:mt-0 flex-col shadow-3xl xl:col-span-4  bg-Titulo p-4">
+        <Today/>
       </div>
-      <div className="bg-Titulo  rounded-[1.25rem] shadow-3xl h-[17rem] col-span-3 p-4">
+      <div className="bg-Titulo col-span-1 rounded-[1.25rem] shadow-3xl min-h-[17rem] sm:h-[17rem] xl:col-span-3 p-4">
       <GraficoCircle/>
       </div>
-      <div className="col-start-auto flex flex-col rounded-[1.25rem] h-[19rem] shadow-3xl col-span-4 box bg-Titulo p-4">
+      <div className="xl:col-start-auto col-span-1 flex flex-col rounded-[1.25rem] h-[19rem] shadow-3xl xl:col-span-4  bg-Titulo p-4">
         <GraficoBarra/>
       </div>
-      <div className="col-start-auto bg-Titulo rounded-[1.25rem] flex flex-col shadow-3xl h-[19rem] col-span-3 p-4">
+      <div className="xl:col-start-auto bg-Titulo col-span-1 rounded-[1.25rem] flex flex-col shadow-3xl h-[19rem] xl:col-span-3 p-4">
       <LineGrafico/>
       </div>
-      <div className='bg-Titulo rounded-[1.25rem] shadow-3xl h-[17rem] col-span-7 p-3'>
+      <div className='bg-Titulo rounded-[1.25rem] shadow-3xl overflow-auto col-span-1 h-[17rem] xl:col-span-7 p-3'>
         <Tabela/>
       </div>
       </div>

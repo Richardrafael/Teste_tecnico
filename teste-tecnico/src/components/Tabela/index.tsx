@@ -35,7 +35,7 @@ export default function Tabela() {
       <span className="text-lg font-Poppins text-quadros tracking-widest leading-[2rem] font-semibold ">
           Top Products
       </span>
-      <table className="w-full gap-4 font-Poppins md:table-fixed table-fixed "> 
+      <table className="xl:w-full gap-4 font-Poppins   md:table-fixed   min-w-[40rem] overflow-auto table-fixed "> 
       <thead>
                 <tr className="text-left border-b border-[#EDF2F6] text-gray-50  text-xl">
                   <th className="text-table leading-[1rem] text-[0.8125rem] font-normal ">#</th>

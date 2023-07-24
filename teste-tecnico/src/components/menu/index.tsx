@@ -6,15 +6,21 @@ import order  from "../../assets/order.svg"
 import SalesReport  from "../../assets/SalesReport.svg"
 import Setting  from "../../assets/Setting.svg"
 import Products  from "../../assets/Products.svg"
+
 import SignOut  from "../../assets/SignOut.svg"
 import Campos from "./campos"
 
 
+
 function Menu() {
+  
+
   return (
     <>
-      <div className="bg-primary w-[18rem] gap-3 h-full fixed flex flex-col items-center justify-start pt-8 ">
-    <div className="flex my-1 p-2 pl-6 w-[12rem] rounded-xl h-[3rem] items-center justify-start  flex-row gap-5">
+  
+ 
+      <div className="bg-primary  hidden xl:flex z-10   w-[18rem] gap-3 h-full fixed  flex-col items-center justify-start pt-8 ">
+    <div className="hidden xl:flex my-1 p-2 pl-6 w-[12rem] rounded-xl h-[3rem] items-center justify-start  flex-row gap-5">
     <img src={icone} alt="" />
      <span className="text-Titulo leading-[150%] text-3xl  font-Poppins font-semibold  ">
       Site
@@ -33,7 +39,6 @@ function Menu() {
         Sign Out
      </span>
     </div>
-
       </div>
     </>
   )

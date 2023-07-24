@@ -25,25 +25,25 @@ export default function Today() {
     </div>
     </div>
     <div className="w-full mt-4 flex justify-center items-center ">
-    <div className="w-full  gap-3    grid grid-cols-6">
+    <div className="w-full  gap-3  grid-cols-1  grid xl:grid-cols-6">
         <Total 
         icone={icone1quadro}
         titulo="$1K"
         subTitulo="Total Sales"
         information="+8% from yesterday"
-        backgroud="w-44 p-4 gap-2 flex flex-col  rounded-2xl bg-quadro1 h-[10.2rem] col-span-2"/>
+        backgroud="xl:w-44  p-4 gap-2 flex flex-col   rounded-2xl bg-quadro1 h-[10.2rem] xl:col-span-2"/>
         <Total 
         icone={icone2quadro}
         titulo="300"
         subTitulo="Total Order"
         information="+5% from yesterday"
-        backgroud="w-44 p-4 gap-2 flex flex-col  rounded-2xl bg-quadro2 h-[10.2rem] col-span-2"/>
+        backgroud="xl:w-44  p-4 gap-2 flex flex-col  rounded-2xl bg-quadro2 h-[10.2rem] xl:col-span-2"/>
         <Total 
         icone={icone3quadro}
         titulo="5"
         subTitulo="Product Sold"
         information="+1.2% from yesterday"
-        backgroud="w-44 p-4 gap-2 flex flex-col  rounded-2xl bg-quadro3 h-[10.2rem] col-span-2"/>
+        backgroud="xl:w-44  p-4 gap-2 flex flex-col  rounded-2xl bg-quadro3 h-[10.2rem] xl:col-span-2"/>
     </div>
     </div>
    

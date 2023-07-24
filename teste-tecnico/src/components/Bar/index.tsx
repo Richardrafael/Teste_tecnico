@@ -22,7 +22,7 @@ import {
   );
   
   export const options = {
-    responsive: false,
+    responsive: true,
     scales: {
     x: {
     //   display: false, 
@@ -74,10 +74,10 @@ import {
     <span className="text-lg font-Poppins text-quadros tracking-widest leading-[2rem] font-semibold ">
     Target vs Reality
     </span>
-    <div className='h-[10rem] w-[30rem] flex justify-center'>
+    <div className='h-[8rem] sm:h-[10rem] xl:w-[30rem] flex justify-center'>
     <Bar options={options} data={data} />
     </div>
-    <div className='flex gap-2 flex-col '>
+    <div className='flex gap-2 mt-2 flex-col '>
      <Legenda 
      icone={bolsa} 
      titulo='Reality Sales'
