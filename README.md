@@ -1,4 +1,4 @@
 # Teste_tecnico
 Teste_tecnico
 
-<img src="">
+![Vídeo de Demonstração](url_do_gif_animado.gif)
